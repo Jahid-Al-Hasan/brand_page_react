@@ -1,0 +1,105 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.formStyle {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div {
+    padding: 20px;
+    width: 420px;
+    /* max-width: 420px; */
+    /* border: 3px solid red; */
+    box-shadow: 4px 4px 4px 4px rgb(5, 108, 43);
+}
+
+
+.nameToSubmit input,
+button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* background-color: rgb(18, 24, 31); */
+    color: white;
+    border-radius: 50px;
+    border-color: rgb(45, 243, 105);
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+}
+
+
+
+#first_name {
+    float: left;
+    width: 43%;
+}
+
+#last_name {
+    float: right;
+    margin-right: -6px;
+    width: 43%;
+}
+
+
+
+.checkBox_div {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 0;
+    font-size: normal;
+    text-align: center;
+    white-space: nowrap;
+
+
+}
+
+
+
+
+
+
+#submit {
+    /* position: relative; */
+    background-color: rgb(18, 119, 92);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 35px;
+    border-radius: 50px;
+    min-width: 170px;
+
+}
+
+#submit:hover {
+    /* position: relative; */
+    background-color: rgb(5, 107, 66);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 35px;
+    border-radius: 50px;
+    min-width: 170px;
+    box-shadow: 2px 2px 2px 2px green;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
